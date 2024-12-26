@@ -1,0 +1,93 @@
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header.main-header {
+    background: #0073e6;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header.main-header h1 {
+    margin: 0.5rem 0;
+}
+
+header.main-header p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+header.main-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header.main-header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header.main-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+main h2 {
+    color: #0073e6;
+}
+
+footer.main-footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #222;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer.main-footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Bouton */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 1rem 0;
+    color: #fff;
+    background: #0073e6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #005bb5;
+}
+
+/* Section highlight */
+section.highlight {
+    background: #eaf4ff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* List styling */
+ul {
+    padding-left: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
